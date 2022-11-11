@@ -1,4 +1,4 @@
-FROM node:4.2
+FROM node:lts-alpine3.16
 MAINTAINER "Maksim Losev <mlosev@beget.ru>"
 
 RUN npm install -g bower@v1.7.0
